@@ -17,7 +17,7 @@ env:
     - TRIGGER_REPO_BRANCH: "master"
 
 before_install:
-  - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
+  - if [[ `npm -v` !=  3* ]]; then npm i -g npm@3; fi
   - npm install -g bower grunt-cli
   - npm install patternfly-eng-release
 
